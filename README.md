@@ -1,4 +1,4 @@
-# Passo a Passo
+# Rota Filmes
 
 ## 🛠️ Passo a Passo
 
@@ -31,4 +31,17 @@
 
 
 
+### Propriedades
 
+* **
+🚀 **Lucro**: Inicialmente, foi criada a função `textToNumber`, responsável pela conversão de um valor em texto para numérico. Esta função será utilizada para converter o orçamento e a bilheteria em números. Nessa função, inicialmente são removidos os símbolos `$` e os espaços em branco, para então verificar a qual casa decimal o valor pertence. Por exemplo, se o valor contiver a palavra `bilhão`, ela será removida e o valor será multiplicado por 1.000.000.000. O mesmo ocorre para valores que contenham `milhões`, multiplicando o valor por 1.000.000.
+Em seguida, foi criada a função `getLucro`, que realiza o cálculo do lucro a partir da bilheteria e do orçamento, e depois o converte para o formato de string adequado.
+
+🚀 **Premiação de maior relevância:**: 
+
+
+🚀 **Duração em Segundos:**: 
+
+🚀 **Nota IMDb:**: 
+
+🚀 **Sinopse:**: 
