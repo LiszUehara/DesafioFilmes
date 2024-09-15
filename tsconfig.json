@@ -1,25 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "useDefineForClassFields": true,
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    "module": "ESNext",
-    "skipLibCheck": true,
-
-    /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx",
-
-    /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "outDir": "./dist",        // Diretório onde o JS compilado será salvo
+    "target": "ES6",           // Define o padrão ECMAScript do JS gerado
+    "module": "commonjs",      // Sistema de módulos (comum no Node.js)
+    "strict": true,            // Ativa verificações rigorosas de tipo
+    "esModuleInterop": true,   // Suporte a import/export padrão do ES6
+    "skipLibCheck": true,      // Pula checagens de tipo em arquivos de definição
+    "forceConsistentCasingInFileNames": true // Garante consistência em maiúsculas/minúsculas nos imports
   },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src/**/*"],     // Inclui todos os arquivos .ts na pasta src
+  "exclude": ["node_modules"]  // Exclui a pasta node_modules
 }

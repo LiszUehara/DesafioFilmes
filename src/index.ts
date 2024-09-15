@@ -3,9 +3,8 @@ import cors from 'cors';
 import express from 'express';
 import helmet from 'helmet';
 import morgan from 'morgan';
-
-import './routes/movie.router.ts';
-import { publicRouter } from './routes/router.ts';
+import './routes/movie.router';
+import { publicRouter } from './routes/router';
 
 
 const PORT = 3000;

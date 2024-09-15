@@ -7,7 +7,7 @@ class MovieControllers {
   constructor() {
     this.service = new movieService();
   }
-  async index(request: Request, response: Response) {
+  async index(_request: Request, response: Response) {
     try {
         return response.send(await this.service.index());
     } catch (error) {

@@ -2,6 +2,9 @@
 
 ## 🛠️ Passo a Passo
 
+✅ **Escolha de Escopo de Projeto:**: A escolha do Typescript se deu devido a essa linguagem carrregar todos os beneficos do javascript alem de possuir uma tipagem eficiente e esta mais proxima dos padrões de organização de projetos.
+
+
 ✅ **Instalação de dependencias:**: com o yarn, foi instalado as dependencias e biblioteecas que seriam usadas e iniciado o projeto.
 
 ✅ **Criação do Servidor**: No arquivo "src/index.ts" foi iniciado o servidor e aplicado middlewares de segurança: 
@@ -22,6 +25,9 @@
 
 ✅ **Adicionado .gitignore**: Para controle de versão sem subir o Node_Modules respeitando as boas praticas
 
+
+✅ **Adicionado versão compilada**: O código JavaScript compilado é executado mais rapidamente do que o TypeScript, que precisa ser transpilado.
+ O JavaScript é o formato executável em navegadores e Node.js, enquanto o TypeScript deve ser convertido
 
 
 
