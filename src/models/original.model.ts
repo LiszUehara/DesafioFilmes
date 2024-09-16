@@ -1,16 +1,16 @@
 export interface IOriginal {
-    titulo: String;
+    titulo: string;
     ano: number;
     diretor: string;
     genero: string[];
     duracao: number;
-    ratings: {valor: number; fonte: String}[];
-    elenco: String[];
-    sinopse: {texto: String; idioma: String}[];
-    poster: String;
-    trailer: String;
-    locacoes: String[];
+    ratings: {valor: number; fonte: string}[];
+    elenco: string[];
+    sinopse: {texto: string; idioma: string}[];
+    poster: string;
+    trailer: string;
+    locacoes: string[];
     orcamento: string;
     bilheteria: string;
-    premios: {nome: String; relevancia: number}[];
+    premios: {nome: string; relevancia: number}[];
 }

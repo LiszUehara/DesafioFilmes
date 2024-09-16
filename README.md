@@ -37,11 +37,11 @@
 🚀 **Lucro**: Inicialmente, foi criada a função `textToNumber`, responsável pela conversão de um valor em texto para numérico. Esta função será utilizada para converter o orçamento e a bilheteria em números. Nessa função, inicialmente são removidos os símbolos `$` e os espaços em branco, para então verificar a qual casa decimal o valor pertence. Por exemplo, se o valor contiver a palavra `bilhão`, ela será removida e o valor será multiplicado por 1.000.000.000. O mesmo ocorre para valores que contenham `milhões`, multiplicando o valor por 1.000.000.
 Em seguida, foi criada a função `getLucro`, que realiza o cálculo do lucro a partir da bilheteria e do orçamento, e depois o converte para o formato de string adequado.
 
-🚀 **Premiação de maior relevância:**: 
+🚀 **Premiação de maior relevância:**: Na função `getMaiorPremiacao` o array de premios é percorrido atraves de um for, onde toda vez que uma premiação possui relevancia maior que a armazenada na variavel `maiorPremiacao` a mesma é subtituida, onde maiorPremiacao tem valor inicial sendo o primeiro elemento do array de premios.  
 
 
-🚀 **Duração em Segundos:**: 
+🚀 **Duração em Segundos:**: Para realizar o calculo da duração do filme em segundos, foi criada a função `getDuracaoSegundos` a qual através da duração de um filme (que está em minutos), obtida do objeto original de filmes, converte o mesmo em segundos multiplicando por 60. 
 
-🚀 **Nota IMDb:**: 
+🚀 **Nota IMDb:**: Na função `getNotaIMDB` é utilizado o metodo `find` no array de `ratings` (tal array esta presente do objeto original de filmes) para se encontrar a nota na `fonte` que tenha valor igual `IMDb`, em seguida retornando seu `valor` respectivo.
 
-🚀 **Sinopse:**: 
+🚀 **Sinopse:**: Por fim, na função `getSinopse` para obter a sinopse do filme a mesma utiliza a função reduce para percorrer o array de sinopses do filme e retornar a sinopse em português (pt-br), se disponível. Caso não encontre, ele mantém a sinopse em inglês (en). Ele começa verificando a primeira sinopse do array e segue comparando as demais, sempre priorizando o idioma "pt-br".

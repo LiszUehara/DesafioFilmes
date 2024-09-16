@@ -13,8 +13,8 @@ class MovieControllers {
   async index(_request: Request, response: Response) {
     try {
         const respostaApi = await this.serviceApi.index()
-        this.service.index(respostaApi.filmes)
-        return response.send(respostaApi);
+        const filmes = await this.service.index(respostaApi.filmes)
+        return response.send(filmes);
     } catch (error) {
       return response.status(400).json({ error: (error as Error).message });
     }

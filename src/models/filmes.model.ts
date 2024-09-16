@@ -1,12 +1,12 @@
 export interface IFilmes {
-    titulo: String;
+    titulo: string;
     ano: number;
-    diretor: String;
-    genero: String[];
+    diretor: string;
+    genero: string[];
     duracaoSegundos: number;
     notaIMDb: number;
-    lucro: String;
-    maiorPremiacao: String;
-    sinopse: String;
+    lucro: string;
+    maiorPremiacao: string;
+    sinopse: string;
 }
 
