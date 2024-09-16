@@ -1,5 +1,30 @@
 # Rota Filmes
 
+## 🏃 Executando
+
+Para executar a aplicação, siga estas etapas:
+
+1. Baixando o Repositorio [LiszUehara](https://github.com/LiszUehara/DesafioFilmes):
+```bash
+     git clone
+        https://github.com/LiszUehara/DesafioFilmes
+```
+
+2. Instalando as dependências:
+```bash
+    $ npm install
+```
+
+3. Executando com npm:
+```bash
+      npm run dev
+```
+
+4. Executando com yarn:
+```bash
+      yarn dev
+```
+
 ## 🛠️ Passo a Passo
 
 ✅ **Escolha de Escopo de Projeto:**: A escolha do Typescript se deu devido a essa linguagem carrregar todos os beneficos do javascript alem de possuir uma tipagem eficiente e esta mais proxima dos padrões de organização de projetos.
